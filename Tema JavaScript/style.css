@@ -1,0 +1,76 @@
+     html, body {
+            height: 100vh;
+            background-image: linear-gradient(to bottom, #ebf0b0 70%, #e79701 100%);
+            margin: 0px;
+            padding: 0px;
+            background-size: 100%;
+            background-attachment: fixed;
+        }
+        
+
+        .table1{
+            display: inline-block;
+        }
+        .table2{
+            float: right;
+        }
+        
+        .table3{
+            display: block;
+            width: 100%;
+        }
+        .table3 table{
+            margin: 0 auto;
+        }
+
+        table {
+            background-color: rgba(240, 193, 228, 0.993);
+            border-right: solid 5px rgba(103, 146, 180, 1);
+            border-bottom: solid 5px rgb(105, 138, 163);
+            border-collapse: collapse;
+            margin: 50px;
+            zoom: 1.5;
+            font-family: sans-serif;
+        }
+
+        th {
+            font-size: 15px;
+            height: 25px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-decoration: underline;
+        }
+
+        .banner1 {
+            background-color: rgb(182, 186, 201);
+        }
+
+        .banner2 {
+            background-color: rgb(211, 147, 147);
+        }
+
+        .banner3 {
+            background-color: rgb(149, 185, 149)
+        }
+
+        .chenar-text,
+        .chenar-text_,
+        .chenar-text3 {
+            width: 58px;
+        }
+
+        button {
+            background-color: rgb(161, 245, 217);
+            cursor: pointer;
+        }
+
+
+        #calculate {
+            font-weight: bolder;
+            width: 100%;
+        }
+
+        .erase {
+            font-weight: bolder;
+            color: red;
+            width: 100%;
+        }
